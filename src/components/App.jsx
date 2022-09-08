@@ -5,13 +5,13 @@ import GifList from './GifList';
 import Gif from './Gif';
 
 const giphy = require('giphy-api')({
-  apiKey: 'KsltJNEs1v3QDDVlinP6EFo2GqjFxgRR',
+  apiKey: 'wq45cGgvpkRmOFufH0Ee7b8DEdLnG69O',
   https: true
 });
 
 const App = () => {
-  const [gifIdSelected, setGifIdSelected] = useState("WuGSL4LFUMQU");
-  const [giIdList, setGiIdList] = useState(["WuGSL4LFUMQU", "HuVCpmfKheI2Q", "u6uAu3yyDNqRq", "gG6OcTSRWaSis", "13HgwGsXF0aiGY", "13UZisxBxkjPwI", "zOvBKUUEERdNm", "PnpkimJ5mrZRe"]);
+  const [gifIdSelected, setGifIdSelected] = useState("mz1kJeDVueKC4");
+  const [giIdList, setGiIdList] = useState(["d6Ni9aqSatPfq", "PXvCWUnmqVdks", "pYCZPDymIVjeo", "720g7C1jz13wI", "Tl2AK8HOHj7SU", "5tlq0pRndGu8U", "IWvuFVQICQIr6", "12nfFCZA0vyrSw"]);
   const fetchGiphy = (keyword) => {
     giphy.search({
       q: keyword,
