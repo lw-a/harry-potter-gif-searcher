@@ -2,4 +2,4 @@
 
 Harry Potter gif searcher in React using giphy's search api.
 
-Created using [Yann Klein](https://github.com/yannklein)'s React boilerplate.
+[Live Demo](https://lw-a.github.io/harry-potter-gif-searcher/)
